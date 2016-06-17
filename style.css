@@ -35,7 +35,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
-pre {
+code,pre {
   color: #449848;
   margin-left: 1rem;
 }
