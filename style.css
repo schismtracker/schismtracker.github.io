@@ -1,0 +1,37 @@
+body {
+  color: #000000;
+  background-color: #b49478;
+  font-family: monospace;
+  font-size: large;
+}
+.heading {
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+}
+div.box {
+  color: #e8e8c8;
+  background-color: #000000;
+  border-style: solid;
+  border-bottom-color: #e8e8c8;
+  border-left-color: #7c5844;
+  border-right-color: #e8e8c8;
+  border-top-color: #7c5844;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50rem;
+  padding: 1rem;
+}
+.box-first {
+  margin-top: 0;
+}
+.box-last {
+  margin-bottom: 0;
+}
+a {
+  color: #fcfc54;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
