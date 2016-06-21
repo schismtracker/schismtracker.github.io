@@ -8,13 +8,13 @@ body {
 }
 
 h1 {
-  font-size: x-large;
+  /*font-size: x-large;*/
   font-weight: bold;
   text-align: center;
 }
 
-h1.lines { border-top: 2px dotted rgb(124,88,68); text-align: center; position: relative; margin: 1.75rem 0 0; }
-h1.lines span { position: relative; top: -.7em; background: rgb(179,147,120); display: inline-block; padding: 0 1rem; }
+section h1 { border-top: 2px dotted rgb(124,88,68); text-align: center; position: relative; margin: 1.75rem 0 0; }
+section h1 span { position: relative; top: -.7em; background: rgb(179,147,120); display: inline-block; padding: 0 1rem; }
 
 
 img#logo {
@@ -22,7 +22,7 @@ img#logo {
   display: block;
 }
 
-div {
+section div {
   color: #e8e8c8;
   background-color: #000000;
   border-width: 2px;
@@ -32,11 +32,11 @@ div {
   padding: 1rem;
 }
 
-div :first-child {
+section div :first-child {
   margin-top: 0;
 }
 
-div :last-child {
+section div :last-child {
   margin-bottom: 0;
 }
 
