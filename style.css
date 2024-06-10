@@ -11,6 +11,7 @@ h1 {
   /*font-size: x-large;*/
   font-weight: bold;
   text-align: center;
+  image-rendering: pixelated;
 }
 
 section h1 { border-top: 2px dotted rgb(124,88,68); text-align: center; position: relative; margin: 1.75rem 0 0; }
