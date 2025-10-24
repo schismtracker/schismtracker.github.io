@@ -55,3 +55,8 @@ code, pre {
   color: #449848;
   margin: 1rem;
 }
+
+/* Make the downloads list a bit less cramped */
+li {
+  margin-top: 0.1em;
+}
